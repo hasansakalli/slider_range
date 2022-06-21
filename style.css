@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Open+Sans&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  margin: 2rem;
+  font-family: 'Anek Latin', sans-serif;
+  background-color: rgb(71, 6, 6);
+  }
+  .container{
+    width: 300px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+   border: 2px solid rgb(63, 14, 14);
+   border-radius: 10px;
+   background-color: white;
+  }
+  .product{
+    width: 200px;
+    height: 200px;
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    
+  }
+  form {
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.3rem;
+    border:none;
+   
+    background-color:rgba(128, 128, 128, 0.208);
+  }
+  .range-input{
+    width: 100%;
+    display: grid;
+    place-items: center;
+   
+  }
+#inputValue{
+    width: 70%;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.card{
+    margin-top: 1rem;
+    width: 90%;
+    background-color:rgba(128, 128, 128, 0.194);
+    padding: 0.3rem;
+    align-items: center;
+    
+}
+#result2, #result, #total{
+    border-bottom: 0.4px solid gray;
+    font-weight: bold;
+    padding: 0.4rem;
+}
